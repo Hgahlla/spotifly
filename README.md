@@ -126,7 +126,7 @@ The main module containing all the Spotify API functions.
 
   Fetch the details of the provided album id, with optional limit for amount of tracks to fetch.
 
-- ### `getPlaylist(id: string, limit?: number)`: [*`Promise<SpotifyPlaylist>`*](https://github.com/tr1ckydev/spotifly/blob/main/src/types/playlist.ts)
+- ### `getPlaylist(id: string, limit?: number, offset?: number)`: [*`Promise<SpotifyPlaylist>`*](https://github.com/tr1ckydev/spotifly/blob/main/src/types/playlist.ts)
 
   Fetch all the details of the provided playlist id, with optional limit for amount of tracks to fetch.
 
